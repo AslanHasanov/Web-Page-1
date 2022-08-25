@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: darkslategray;
+    border-radius: 8px;
+}
+
+.first{
+background-color: #212529;
+padding: 17px 0;
+text-align: center;
+}
+.first a{
+    text-decoration: none;
+    background-color: #212529;
+    color: #fff;
+    font-size: 1.25rem;
+}
+.second{
+    background-image: linear-gradient(to right,#000046,#1CB5E0);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 7rem 0;
+    background-attachment: fixed;
+
+}
+.second h1{
+    color: #fff;
+    font-weight: bolder;
+    font-size: calc(1.375rem + 1.5vw);
+    margin-bottom: 1rem;
+   
+}
+.second p{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+.second a{
+    color: #000;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    transition: 0.5s;
+}
+.second a:hover{
+    background-color:#76899c ;
+}
+.third{
+    padding: 15rem;
+    background-image: url(https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+    width: 68.6%;
+    margin: auto;
+    background-attachment: fixed;
+}
+.third h2{
+    font-weight: 700;
+    font-size:35px;
+    margin-bottom: 1rem;
+}
+.third p{
+    font-weight: 100;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #343a40;
+}
+.fourth{
+    background-image: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10rem;
+    width: 79%;
+    margin: auto;
+    
+}
+.fourth h2{
+    font-weight: 700;
+    font-size:35px;
+    margin-bottom: 1rem;
+    
+}
+.fourth p{
+    font-weight: 100;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #343a40;
+}
+.fives{
+    background-image:url(https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10rem;
+    width: 79%;
+    margin: auto;
+}
+.fives h2{
+    color: #212529;
+    font-weight: 700;
+    font-size:35px;
+    margin-bottom: 1rem;
+    
+}
+.fives p{
+    color: #343a40;
+    font-weight: 100;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+.last{
+    background-color: #212529;
+    padding: 3rem ;
+    text-align: center;
+    }
+    .last p{
+        text-decoration: none;
+        background-color: #212529;
+        color: #fff;
+        font-size: 1.25rem;
+    }
+
