@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 ::-webkit-scrollbar{
     width: 10px;
@@ -62,14 +63,15 @@ text-align: center;
     background-image: url(https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-position: center;
     background-size: cover;
-    width: 68.6%;
-    margin: auto;
+    width: 100%;
+    
     background-attachment: fixed;
 }
 .third h2{
     font-weight: 700;
     font-size:35px;
     margin-bottom: 1rem;
+    
 }
 .third p{
     font-weight: 100;
@@ -83,8 +85,8 @@ text-align: center;
     background-size: cover;
     background-attachment: fixed;
     padding: 10rem;
-    width: 79%;
-    margin: auto;
+    width: 100%;
+    
     
 }
 .fourth h2{
@@ -105,7 +107,7 @@ text-align: center;
     background-size: cover;
     background-attachment: fixed;
     padding: 10rem;
-    width: 79%;
+    width:100%;
     margin: auto;
 }
 .fives h2{
